@@ -49,7 +49,7 @@ export default function SignupForm({ onSignup }: Props) {
   }
 
   return (
-    <section className="w-full min-h-screen bg-[#FDFBF9] flex justify-center items-center p-6">
+    <section className="w-full min-h-screen flex justify-center items-center p-6">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-md bg-white border border-[#E2E8F0] shadow-lg rounded-xl p-6 space-y-6"
@@ -145,7 +145,7 @@ export default function SignupForm({ onSignup }: Props) {
 
         <button
           type="submit"
-          className="w-full h-12 cursor-pointer bg-[#A56D2C] text-white rounded-lg transition"
+          className="w-full h-12 hover:bg-[#8c5c24] cursor-pointer bg-[#A56D2C] text-white rounded-lg transition"
         >
           إنشاء حساب مجاني
         </button>

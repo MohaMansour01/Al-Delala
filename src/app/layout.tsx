@@ -13,21 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Al-Delala",
-  description: "A modern marketplace platform connecting buyers and sellers with ease, trust, and efficiency.",
+  title: "الدلالة - Al-Delala",
+  description:
+    "الدلالة هي منصة سوق إلكترونية متكاملة تهدف إلى تسهيل عمليات البيع والشراء من خلال تجربة سلسة وآمنة. تُمكِّن المستخدمين من عرض منتجاتهم وخدماتهم، استكشاف العروض، والتواصل المباشر بثقة وكفاءة — مع تركيز خاص على السوق السوداني واحتياجاته المتنامية.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

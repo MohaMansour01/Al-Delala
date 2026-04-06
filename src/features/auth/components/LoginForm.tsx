@@ -23,7 +23,7 @@ export default function LoginForm({ onLogin }: Props) {
   }
 
   return (
-    <section className="min-h-screen w-120 bg-[#f8f9fa] flex justify-center items-center">
+    <section className="min-h-screen w-120 flex justify-center items-center">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-md p-8 rounded-lg bg-white border border-[#E2E8F0] shadow-lg"
@@ -92,7 +92,7 @@ export default function LoginForm({ onLogin }: Props) {
 
           <button
             type="submit"
-            className="w-full mt-6 h-[56px] rounded-[8px] bg-[#A56D2C] text-white font-bold text-[16px] hover:bg-[#8c5c24] transition"
+            className="w-full mt-6 h-[56px] rounded-[8px] bg-[#A56D2C] text-white font-bold text-[16px] hover:bg-[#8c5c24] transition cursor-pointer"
           >
             تسجيل الدخول
           </button>

@@ -24,7 +24,7 @@ export default function ForgotPasswordForm() {
   }
 
   return (
-    <section className="w-full min-h-screen flex justify-center items-center bg-[#FDFBF9] p-6">
+    <section className="w-full min-h-screen flex justify-center items-center p-6">
       <div className="w-full max-w-md flex flex-col items-center gap-6">
         <form
           onSubmit={handleSubmit}
@@ -68,7 +68,7 @@ export default function ForgotPasswordForm() {
           <div className="w-full flex justify-center">
             <Link
               href="/login"
-              className="flex items-center text-[#A56D2C] rounded-md transition"
+              className="flex items-center text-[#A56D2C] rounded-md transition hover:underline"
               dir="rtl"
             >
               <ArrowRight className="mr-2 ml-1 w-4 h-4" />
