@@ -34,8 +34,8 @@ export default function PrivacyPage() {
             <li className="flex flex-row-reverse items-start gap-2">
               <span>⮜</span>
               <span>
-                لا نقوم بمشاركة معلوماتك الشخصية مع أطراف <br /> ثالثة إلا في الحالات
-                الضرورية لتقديم الخدمة <br /> أو وفقًا للقانون
+                لا نقوم بمشاركة معلوماتك الشخصية مع <br /> أطراف ثالثة إلا في الحالات
+                الضرورية لتقديم <br /> الخدمة أو وفقًا للقانون
               </span>
             </li>
 
