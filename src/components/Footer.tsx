@@ -7,15 +7,15 @@ import { SiTiktok } from "react-icons/si";
 import logo from "../assets/images/Al-Delala-Logo.png";
 
 const footerLinks = [
-  { href: "/about", label: "من نحن" },
   { href: "/contact", label: "اتصل بنا" },
+  { href: "/about", label: "من نحن" },
   { href: "/terms", label: "الشروط" },
   { href: "/privacy", label: "سياسة الخصوصية" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8F1E5] text-[#1f2937] border-t border-[#EADBC8] mt-12">
+    <footer className="bg-[#F8F1E5] text-[#1f2937] border-t border-[#EADBC8]">
       <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col items-center gap-12">
 
         <div className="flex flex-col items-center text-center gap-4">
