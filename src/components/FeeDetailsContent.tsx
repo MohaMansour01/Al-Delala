@@ -52,7 +52,10 @@ export default function FeeDetailsContent() {
         </div>
 
         <div className="w-full flex flex-col gap-6 sm:gap-8 p-6 sm:p-10 rounded-2xl bg-white border border-[#F1F5F9]">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between py-4">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-full bg-[#A56D2C]/10">
+              <Calculator className="w-6 h-6 sm:w-7 sm:h-7 text-[#A56D2C]" />
+            </div>
             <div className="flex flex-col gap-2 text-right">
               <h2 className="text-xl sm:text-2xl font-bold text-[#0F172A]">
                 حاسبة عمولة الدلالة (1%)
@@ -60,9 +63,6 @@ export default function FeeDetailsContent() {
               <p className="text-sm sm:text-base text-[#64748B]">
                 أدخل مبلغ البيع لمعرفة العمولة المستحقة
               </p>
-            </div>
-            <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-full bg-[#A56D2C]/10">
-              <Calculator className="w-6 h-6 sm:w-7 sm:h-7 text-[#A56D2C]" />
             </div>
           </div>
 

@@ -211,7 +211,7 @@ export default function AddNewAdForm() {
             href={"/fee-details"}
             className="text-[#A56D2C] underline hover:text-[#92521f]"
           >
-            (اضغط هنا لمعرفة التفاصيل العمولة)
+            (اضغط هنا لمعرفة تفاصيل العمولة)
           </Link>
         </span>
       </div>
